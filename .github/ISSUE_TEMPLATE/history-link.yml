@@ -1,0 +1,93 @@
+name: Link historical work
+description: Link a past issue, PR, commit, review, or release into this ledger
+title: "[history] <builder>: <project> <short work title>"
+labels:
+  - source:developer-submitted
+  - history:pending-verification
+  - profile:update-needed
+body:
+  - type: markdown
+    attributes:
+      value: "Use this to link previous work into the activity ledger. Provide concrete evidence; unverifiable claims stay out of profiles."
+  - type: input
+    id: builder
+    attributes:
+      label: GitHub handle
+      description: The builder whose history should be linked.
+      placeholder: "@handle"
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: Repository or project where the work happened.
+      placeholder: "owner/repo"
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options:
+        - author
+        - co-author
+        - reviewer
+        - maintainer
+        - docs
+        - other
+    validations:
+      required: true
+  - type: input
+    id: upstream_issue
+    attributes:
+      label: Upstream issue
+      description: Link to the original issue, if available.
+      placeholder: "https://github.com/owner/repo/issues/123"
+  - type: input
+    id: upstream_pr
+    attributes:
+      label: Upstream PR
+      description: Link to the original PR, if available.
+      placeholder: "https://github.com/owner/repo/pull/456"
+  - type: textarea
+    id: commits_reviews_releases
+    attributes:
+      label: Other evidence links
+      description: Commit, review comment, release note, changelog, or discussion links.
+      placeholder: "Paste one link per line."
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options:
+        - merged
+        - open
+        - closed-not-merged
+        - abandoned
+        - blocked
+    validations:
+      required: true
+  - type: textarea
+    id: work_summary
+    attributes:
+      label: What changed?
+      description: Short, evidence-grounded summary of the work.
+    validations:
+      required: true
+  - type: textarea
+    id: labels_snapshot
+    attributes:
+      label: Labels snapshot
+      description: Original upstream labels and suggested ledger labels.
+    validations:
+      required: true
+  - type: textarea
+    id: profile_impact
+    attributes:
+      label: Suggested profile impact
+      description: Domain, quality signal, and historical note you think should be added.
+    validations:
+      required: true
