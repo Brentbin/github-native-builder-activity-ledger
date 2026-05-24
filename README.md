@@ -1,5 +1,7 @@
 # GitHub-native Builder Activity Ledger
 
+Frontend: https://brentbin.github.io/github-native-builder-activity-ledger/
+
 A fixed-cycle GitHub activity ledger for tracking who completed what work in which projects, with issue/PR evidence, quality labels, and builder profile history.
 
 ## What This Repo Tracks
