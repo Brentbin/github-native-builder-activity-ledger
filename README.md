@@ -15,6 +15,23 @@ Each update records:
 - what quality evidence exists;
 - how the builder profile changed.
 
+## Link Your Historical Work
+
+Developers can link previous work into this ledger without editing Markdown by hand.
+
+Use the `Link historical work` issue form and provide:
+
+- your GitHub handle;
+- the project repo;
+- upstream issue, PR, commit, review, release, or changelog links;
+- your role in the work;
+- outcome and label snapshots;
+- suggested profile impact.
+
+The ledger maintainer verifies the evidence before adding it to a weekly update and builder profile.
+
+Because this repo is currently private, only collaborators can submit issues here. Public upstream issues and PRs can still be linked from this repo, but public upstream pages may not show a backlink from a private repo.
+
 ## Update Cycle
 
 Default rhythm:
