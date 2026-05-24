@@ -16,6 +16,7 @@ Each update records:
 - which upstream labels and local ledger labels apply;
 - what quality evidence exists;
 - how repository impact and contribution score were computed;
+- how issue-to-PR-to-code linkage was verified;
 - how the builder profile changed.
 
 ## Link Your Historical Work
@@ -41,9 +42,13 @@ A contribution enters profile scoring only after identity and evidence review.
 
 - Self-claim: the submitter must be the original issue / PR / commit / review contributor.
 - Platform review: the maintainer may verify unclear cases using GitHub API evidence or maintainer context.
+- Issue closure: the system links issue -> PR -> commits/files -> review/merge before profile credit.
 - Scoring: contribution score combines repository impact, work quality, issue complexity, role weight, and verification confidence.
 
-See [docs/contribution-model.md](docs/contribution-model.md).
+See:
+
+- [docs/contribution-model.md](docs/contribution-model.md)
+- [docs/issue-pr-code-linking.md](docs/issue-pr-code-linking.md)
 
 ## Update Cycle
 
@@ -58,11 +63,11 @@ Default rhythm:
 - `profiles/`: builder profile history.
 - `projects/`: tracked project indexes and repository profiles.
 - `templates/`: reusable update, work item, scoring, profile, and project templates.
-- `docs/`: contribution verification and scoring model.
+- `docs/`: contribution verification, scoring, and issue-to-code linkage models.
 
 ## Evidence Rule
 
-Profile conclusions must point back to concrete evidence: issue, PR, review, labels, commit, release note, update entry, or scoring record.
+Profile conclusions must point back to concrete evidence: issue, PR, review, labels, commit, release note, update entry, linkage record, or scoring record.
 
 If the evidence is unclear, write `unclear`. Do not convert weak evidence into strong claims.
 
