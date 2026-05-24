@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GitHub-native activity ledger for builder work, issue and PR evidence, quality labels, and profile history.">
+  <title>Builder Activity Ledger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar" aria-label="Primary">
+      <a class="mark" href="https://github.com/Brentbin/github-native-builder-activity-ledger" aria-label="Open GitHub repository">
+        <span class="mark-grid" aria-hidden="true"></span>
+        <span>Builder Activity Ledger</span>
+      </a>
+      <nav class="nav-links" aria-label="Ledger links">
+        <a href="https://github.com/Brentbin/github-native-builder-activity-ledger/tree/main/updates">Updates</a>
+        <a href="https://github.com/Brentbin/github-native-builder-activity-ledger/tree/main/profiles">Profiles</a>
+        <a href="https://github.com/Brentbin/github-native-builder-activity-ledger/issues/new?template=history-link.yml">Link work</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-labelledby="ledger-title">
+      <div class="hero-copy">
+        <p class="eyebrow">GitHub-native reputation ledger</p>
+        <h1 id="ledger-title">Tracked work evidence, not activity theater.</h1>
+        <p class="lede">A public ledger for linking builders to the issues, PRs, reviews, tags, and profile history that prove real project work happened.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="https://github.com/Brentbin/github-native-builder-activity-ledger/issues/new?template=history-link.yml">Link historical work</a>
+          <a class="button secondary" href="https://github.com/Brentbin/github-native-builder-activity-ledger">Open repository</a>
+        </div>
+      </div>
+
+      <aside class="ledger-panel" aria-label="Ledger status">
+        <div class="panel-head">
+          <span>Current Ledger</span>
+          <span class="status-pill">Public</span>
+        </div>
+        <dl class="metric-grid">
+          <div>
+            <dt>Cadence</dt>
+            <dd>Weekly</dd>
+          </div>
+          <div>
+            <dt>Evidence</dt>
+            <dd>Issue / PR</dd>
+          </div>
+          <div>
+            <dt>Profiles</dt>
+            <dd>History</dd>
+          </div>
+          <div>
+            <dt>Quality</dt>
+            <dd>Labels</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="workbench" aria-label="Ledger workbench">
+      <a class="workbench-item" href="https://github.com/Brentbin/github-native-builder-activity-ledger/issues/new?template=history-link.yml">
+        <span class="item-index">01</span>
+        <span class="item-title">Link historical work</span>
+        <span class="item-copy">Submit a past issue, PR, commit, review, or release with evidence.</span>
+      </a>
+      <a class="workbench-item" href="https://github.com/Brentbin/github-native-builder-activity-ledger/tree/main/updates">
+        <span class="item-index">02</span>
+        <span class="item-title">Read weekly updates</span>
+        <span class="item-copy">See who shipped what, where it landed, and which labels applied.</span>
+      </a>
+      <a class="workbench-item" href="https://github.com/Brentbin/github-native-builder-activity-ledger/tree/main/profiles">
+        <span class="item-index">03</span>
+        <span class="item-title">Browse profiles</span>
+        <span class="item-copy">Trace builder history through verified work items and quality signals.</span>
+      </a>
+      <a class="workbench-item" href="https://github.com/Brentbin/github-native-builder-activity-ledger/tree/main/templates">
+        <span class="item-index">04</span>
+        <span class="item-title">Use templates</span>
+        <span class="item-copy">Keep updates, profiles, projects, and work items consistent.</span>
+      </a>
+    </section>
+
+    <section class="schema" aria-label="Ledger schema">
+      <div class="schema-title">
+        <p class="eyebrow">Quality schema</p>
+        <h2>Every profile line needs a receipt.</h2>
+      </div>
+      <div class="schema-table" role="table" aria-label="Quality labels">
+        <div role="row" class="schema-row head">
+          <span role="columnheader">Signal</span>
+          <span role="columnheader">Meaning</span>
+        </div>
+        <div role="row" class="schema-row">
+          <span role="cell">outcome:merged</span>
+          <span role="cell">Accepted upstream or merged into the project.</span>
+        </div>
+        <div role="row" class="schema-row">
+          <span role="cell">quality:solid</span>
+          <span role="cell">No major review concern, with enough evidence to trust the work.</span>
+        </div>
+        <div role="row" class="schema-row">
+          <span role="cell">history:verified</span>
+          <span role="cell">Developer-submitted history passed evidence review.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
