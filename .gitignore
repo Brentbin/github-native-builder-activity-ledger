@@ -1,0 +1,8 @@
+# Collector output — JSON evidence dumps live outside the repo.
+data/
+
+# OS / editor noise
+.DS_Store
+*.swp
+.vscode/
+.idea/
