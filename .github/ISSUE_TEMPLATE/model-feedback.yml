@@ -1,0 +1,37 @@
+name: Model feedback
+description: Report a contribution scenario that the current verification or scoring model cannot represent well
+title: "[model] <short scenario>"
+labels:
+  - model:feedback
+body:
+  - type: markdown
+    attributes:
+      value: "Use this when a real contribution case does not fit the current fields, labels, validation rules, or scoring weights."
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What contribution scenario is not represented well?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence links
+      description: Upstream issue, PR, review, commit, release, or discussion links.
+    validations:
+      required: true
+  - type: textarea
+    id: distortion
+    attributes:
+      label: Where the model distorts reality
+      description: Which verification or scoring field becomes wrong or misleading?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed model change
+      description: Suggested field, label, threshold, or weight change.
+    validations:
+      required: true
