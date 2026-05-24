@@ -30,7 +30,7 @@ Use the `Link historical work` issue form and provide:
 
 The ledger maintainer verifies the evidence before adding it to a weekly update and builder profile.
 
-Because this repo is currently private, only collaborators can submit issues here. Public upstream issues and PRs can still be linked from this repo, but public upstream pages may not show a backlink from a private repo.
+This repo is public. Do not post private code, customer data, internal links, unauthorized screenshots, or review content that cannot be public. Evidence that cannot be public should be marked `unclear` or reviewed through a separate private process.
 
 ## Update Cycle
 
