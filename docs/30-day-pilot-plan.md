@@ -1,4 +1,4 @@
-# GitHub-native Builder Activity Ledger 30-Day Pilot Plan
+# Builder Guild 30-Day Pilot Plan
 
 **Goal**: 用 30 天验证一个 GitHub repo 是否能跨仓库导入贡献证据、验证贡献真实性、量化仓库影响力与贡献质量，并沉淀个人 profile 历史。
 

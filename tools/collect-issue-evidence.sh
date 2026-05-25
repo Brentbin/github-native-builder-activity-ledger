@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Minimal L0 evidence collector for the Builder Activity Ledger.
+# Minimal L0 evidence collector for the Builder Guild.
 # Pulls one issue + its linked PRs (closedByPullRequestsReferences + timeline)
 # into a single JSON the L1 confidence layer can consume.
 #

@@ -1,4 +1,4 @@
-# GitHub-native Builder Activity Ledger
+# Builder Guild
 
 Frontend: https://brentbin.github.io/builder-guild/
 

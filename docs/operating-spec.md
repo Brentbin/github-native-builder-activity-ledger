@@ -1,8 +1,8 @@
-# GitHub-native Builder Activity Ledger Operating Spec
+# Builder Guild Operating Spec
 
 **版本**: v0.3
 **日期**: 2026-05-24
-**工作名**: Builder Activity Ledger
+**工作名**: Builder Guild
 **GitHub repo**: https://github.com/Brentbin/builder-guild
 **Frontend**: https://brentbin.github.io/builder-guild/
 **Visibility**: Public

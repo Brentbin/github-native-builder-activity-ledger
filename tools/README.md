@@ -1,6 +1,6 @@
 # Tools
 
-Scripts that feed the Builder Activity Ledger pipeline.
+Scripts that feed the Builder Guild pipeline.
 
 ## `collect-issue-evidence.sh`
 
