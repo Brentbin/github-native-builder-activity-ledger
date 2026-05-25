@@ -2,8 +2,8 @@
 
 **Goal**: 用 30 天验证一个 GitHub repo 是否能跨仓库导入贡献证据、验证贡献真实性、量化仓库影响力与贡献质量，并沉淀个人 profile 历史。
 
-**Repository**: https://github.com/Brentbin/github-native-builder-activity-ledger
-**Frontend**: https://brentbin.github.io/github-native-builder-activity-ledger/
+**Repository**: https://github.com/Brentbin/builder-guild
+**Frontend**: https://brentbin.github.io/builder-guild/
 **Visibility**: Public
 
 **Architecture**: 单 repo 承载第一阶段：`updates/` 存周期更新，`profiles/` 存完成者档案，`projects/` 存项目索引，`templates/` 存 update / work item / profile / history link / scoring / linkage 模板；GitHub Issues 作为 work item tracking、历史工作关联入口和模型反馈入口。

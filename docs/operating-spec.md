@@ -3,8 +3,8 @@
 **版本**: v0.3
 **日期**: 2026-05-24
 **工作名**: Builder Activity Ledger
-**GitHub repo**: https://github.com/Brentbin/github-native-builder-activity-ledger
-**Frontend**: https://brentbin.github.io/github-native-builder-activity-ledger/
+**GitHub repo**: https://github.com/Brentbin/builder-guild
+**Frontend**: https://brentbin.github.io/builder-guild/
 **Visibility**: Public
 **一句话定位**: 一个跨仓库贡献验证与开发者影响力量化平台，用 issue / PR / tag / review 证据验证贡献真实性，量化仓库影响力与贡献质量，并沉淀完成者技术画像。
 

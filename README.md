@@ -1,6 +1,6 @@
 # GitHub-native Builder Activity Ledger
 
-Frontend: https://brentbin.github.io/github-native-builder-activity-ledger/
+Frontend: https://brentbin.github.io/builder-guild/
 
 A public cross-repository contribution verification and developer impact ledger. It links builders to issue/PR evidence, verifies contribution authenticity, scores repository impact and contribution quality, and turns verified work into profile history.
 
